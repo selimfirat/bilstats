@@ -1,4 +1,5 @@
-# StarStats New
+# BilStats
+BilStats is a web based tool for analyzing past courses and instructors on Bilkent University. This tool is intended to be used on course registration.
 
 
 # Start for development
