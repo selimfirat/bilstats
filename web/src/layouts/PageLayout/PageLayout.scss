@@ -1,0 +1,15 @@
+.page-layout__viewport {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.page-layout__nav-item--active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.is-expanded {
+  background: none !important;
+  color: #333333;
+}
+

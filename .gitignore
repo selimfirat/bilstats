@@ -1,0 +1,8 @@
+web/.DS_STORE
+web/*.log
+web/node_modules
+web/dist
+web/coverage
+web/.idea/
+web/.yarn-cache
+.idea/
