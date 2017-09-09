@@ -1,6 +1,8 @@
 # BilStats
 BilStats is a web based tool for analyzing past courses and instructors on Bilkent University. This tool is intended to be used on course registration.
 
+* Bilstats is inspired by StarStat and created when StarStat was not working.
+
 
 # Start for development
 * `yarn start`
@@ -23,4 +25,4 @@ BilStats is a web based tool for analyzing past courses and instructors on Bilke
 * `yarn`
 * `yarn build
 * `yarn global add gh-pages` or `npm install -g gh-pages`
-* `gh-pages dist`
+* `gh-pages -d dist`
