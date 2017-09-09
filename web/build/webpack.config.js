@@ -24,7 +24,7 @@ const config = {
   output: {
     path: inProject(project.outDir),
     filename: __DEV__ ? '[name].js' : '[name].[chunkhash].js',
-    publicPath: project.publicPath + "bilstats/",
+    publicPath: project.publicPath,
   },
   resolve: {
     modules: [

@@ -5,10 +5,8 @@ const GET_DATA_SUCCESSFUL = "GET_DATA_SUCCESSFUL"
 
 export const getDataAsync = (dep) => {
   return (dispatch, getState) => {
-      console.log(getState())
          axios.get('/data/departments/' + dep + ".json")
           .then(function (response) {
-              console.log(response)
                 dispatch({
                   type    : GET_DATA_SUCCESSFUL,
                   payload : response.data

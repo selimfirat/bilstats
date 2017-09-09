@@ -1,13 +1,13 @@
 # BilStats
-BilStats is a web based tool for analyzing past courses and instructors on Bilkent University. This tool is intended to be used on course registration.
+BilStats is a web based tool for analyzing past courses and instructors on Bilkent University. This tool is intended to be used for course registrations.
 
-* Bilstats is inspired by StarStat and created when StarStat was not working.
+* BilStats is inspired by StarStat and created when StarStat was not working.
 
 
-# Start for development
+## Start for development
 * `yarn start`
 
-# Build
+## Build
 * `yarn build`
 
 ## Scrape & Process Data
@@ -17,12 +17,12 @@ BilStats is a web based tool for analyzing past courses and instructors on Bilke
 * `scrapy crawl course_history`
 * `cd ../data_processing`
 * `python3 main.py`
-* `cp -r data web/public/data
+* `cp -r data web/public/data`
 
 
-## Publish to gh-pages (Static Deployment)
+## Publish to surge (Static Deployment)
 * `cd web`
 * `yarn`
-* `yarn build
-* `yarn global add gh-pages` or `npm install -g gh-pages`
-* `gh-pages -d dist`
+* `yarn build`
+* `yarn global add surge` or `npm install -g surge`
+* `surge dist`

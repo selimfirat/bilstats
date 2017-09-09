@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davezuko/react-redux-starter-kit.git"
+    "url": "git+https://github.com/selimfirat/bilstats.git"
   },
   "author": "Selim Fırat Yılmaz <yilmazselimfirat@gmail.com> (http://wwww.selimfirat.net/)",
   "license": "MIT",
