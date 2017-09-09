@@ -60,7 +60,8 @@ export const Instructors = ({ data, getData }) => {
             {
               Header: "Instructor",
               id: "instructor",
-              accessor: d => d.instructor
+              accessor: d => d.instructor,
+              maxWidth: 250
             },
             {
               Header: "Courses",
@@ -78,6 +79,7 @@ export const Instructors = ({ data, getData }) => {
               Header: "Semester(s)",
               accessor: d => d.year + ' ' + d.semester,
               id: "semester",
+              maxWidth: 180,
               aggregate: vals => {
                 let min = _.min(vals)
                 let max = _.max(vals)
@@ -102,6 +104,7 @@ export const Instructors = ({ data, getData }) => {
             {
               Header: "GPA",
               accessor: "gpa_section",
+              minWidth: 100,
               aggregate: vals => Number(Number(_.round(_.mean(vals), 2)).toFixed(2)),
               Aggregated: renderCell,
               Cell: renderCell
@@ -109,6 +112,7 @@ export const Instructors = ({ data, getData }) => {
             {
               Header: "Student Count",
               accessor: "student_count",
+              maxWidth: 120,
               aggregate: vals => _.round(_.mean(vals), 0),
               Aggregated: row => {
                 return (
