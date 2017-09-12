@@ -2,7 +2,7 @@
 BilStats is a web based tool for analyzing past courses and instructors on Bilkent University. This tool is intended to be used for course registrations.
 
 * BilStats is inspired by StarStat and created when StarStat was not working.
-* Currently deployed to http://bilstats.surge.sh/
+* Currently deployed to http://bilstats.selimfirat.net/
 
 ## Start for development
 * `yarn start`
